@@ -1,0 +1,41 @@
+{
+  "name": "bot-wid",
+  "version": "1.0.0",
+  "description": "bot-wid: based on WWebJS API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bot-wid.js",
+    "start:dev": "nodemon bot-wid.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "Pedro",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.6.0",
+    "actions-on-google": "^2.4.1",
+    "axios": "^0.21.1",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.9.2",
+    "http": "0.0.1-security",
+    "mime-types": "^2.1.32",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^3.2.1",
+    "pb-util": "^1.0.3",
+    "puppeteer": "^21.6.0",
+    "qrcode": "^1.4.4",
+    "socket.io": "2.3.0",
+    "util": "^0.12.4",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
